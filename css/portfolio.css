@@ -1,0 +1,53 @@
+*{
+  box-sizing:border-box;
+  list-style:none;
+}
+body,ul,li,h1,h2{
+  margin:0;
+}
+header{
+  width:100%;
+  height:auto;
+  background-color:#ddd;
+  padding:0 80px;
+  /*border-bottom:solid 1px #fff;*/
+  position:fixed;
+  top:0px;
+}
+.container{
+  margin:0 auto;
+  width:100%;
+  max-width:1000px;
+}
+header ul{
+  display:flex;
+  justify-content:flex-end;
+}
+header li{
+
+  line-height:45px;
+  padding:0 20px;
+  font-size:14px;
+}
+.logo{
+  box-sizing:content-box;
+  width:150px;
+  padding: 0 50px 0 20px;
+  float:left;
+}
+.top-wrapper{
+  background-image:url(../img/computer.jpg);
+  height:700px;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding:200px 0 100px 0;
+  text-align:center;
+
+}
+.top-wrapper h1{
+  font-size:50px;
+}
+#welcome{
+  display:none;
+}
