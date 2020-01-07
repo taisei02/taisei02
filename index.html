@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <title>Taisei Akamatsu | Portfolio</title>
     <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/portfolio_res1.css">
+    <link rel="stylesheet" href="css/portfolio_res2.css">
+    <link rel="stylesheet" href="css/portfolio_res3.css">
+    <link rel="stylesheet" href="css/portfolio_res4.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="https://use.typekit.net/ylu2nyg.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -13,12 +17,14 @@
     <header>
       <div class="container">
         <a href="#"><img src="img/logo.gif" alt="" class="logo"></a>
-        <ul>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">PORTFOLIO</a></li>
-          <li><a href="#">SERVICE</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
+        <div class="nav">
+          <ul>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">OTHERS</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <div class="top-wrapper">
@@ -39,24 +45,43 @@
                 <p>雇われでなく個人の力で稼げるようになりたいと思い、
                   独学でプログラミングを始めました。<br>
                   まずは簡単なLP制作案件の受注を目指しています。<br>
-                仕事を受けるに当たっては、丁寧なコミュニケーションとご希望の
-                デザインに忠実なコーディングを心がけたいと思います。<br>
-              まだまだ扱える言語は少ないですがこれからPHP、Rubyなどを学習していき
-              簡単なWebサービスを作れるレベルを目指していく予定です。</p>
+                仕事を受けるに当たっては、丁寧なコミュニケーションと、ご希望のデザインに忠実なコーディングを心がけたいと思います。</p>
               </div>
               <div class="skill">
                 <h2>skill</h2>
                 <div class="skillline">
-                  <i class="fab fa-html5" ></i>
-                  <i class="fab fa-css3-alt"></i>
-                  <img src="img/jquery.gif" alt="" width=100 class="fab" >
+                  <ul>
+                    <li class="html flex1">HTML5</li>
+                    <li class="css flex1">CSS3</li>
+                    <li class="jQuery flex1">jQuery</li>
+                  </ul>
+
                 </div>
+                <p>まだまだ扱える言語は少ないですがこれからPHP、Rubyなどを学習し、簡単なWebサービスを作れるレベルを目指していく予定です。</p>
               </div>
             </div>
             <div class="image">
-              <img src="img/introduce.jpeg" alt="" height=400>
+              <img src="img/introduce.jpeg" alt="" height=350>
             </div>
         </div>
+      </div>
+    </div>
+    <div class="portfolio">
+      <div class="container">
+        <h2>PORTFOLIO</h2>
+        <p class="sub">今までに模写したサイトです。</p>
+
+      </div>
+    </div>
+    <div class="contact">
+      <div class="container">
+        <h2>CONTACT</h2>
+          <p class="sub">以下に受け付け可能な業務を載せておりますのでお気軽にお問い合わせください。</p>
+
+
+          <form class="contact" action="index.html" method="post">
+
+          </form>
       </div>
     </div>
     <script src="jQuery/portfolio.js"></script>
