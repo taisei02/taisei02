@@ -1,0 +1,15 @@
+@media screen and ( max-width:840px) {
+  .flex{
+    flex-direction: column;
+  }
+
+  .side,.image{
+    width:80%;
+    margin:0 auto;
+  }
+  .side{
+    order:1;
+    margin-top:40px;
+  }
+
+}
