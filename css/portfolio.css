@@ -2,8 +2,14 @@
   box-sizing:border-box;
   list-style:none;
 }
+a{
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
 body,ul,li,h1,h2,h3{
   margin:0;
+  padding:0;
 }
 h2{
   font-family: paralucent-stencil, sans-serif;
@@ -25,17 +31,21 @@ header{
 .container{
   margin:0 auto;
   width:100%;
-  max-width:1150px;
+  max-width:1250px;
 }
 header ul{
   display:flex;
   justify-content:flex-end;
 }
 header li{
-
   line-height:45px;
   padding:0 20px;
   font-size:14px;
+  transition:background-color 0.3s;
+}
+header li:hover{
+  background-color:#222;
+
 }
 .logo{
   box-sizing:content-box;
@@ -49,18 +59,18 @@ header li{
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
-  padding:200px 0 100px 0;
+  padding:330px 0 100px 0;
   text-align:center;
 
 }
 .top-wrapper h1{
-  font-size:50px;
+  font-size:65px;
 }
 #welcome{
   display:none;
 }
-.introduction{
-  padding-top:50px;
+.introduction ,.contact{
+  padding:50px 80px 0 80px;
 }
 .introductrion,h2{
   font-size:40px;
@@ -85,6 +95,9 @@ header li{
   width:300px;
   margin:0 auto;
 }
+.profile{
+  margin-bottom:40px;
+}
 .profile p{
   text-align:left;
   margin-left:40px;
@@ -107,4 +120,37 @@ header li{
   text-align:center;
   font-weight:100;
   border-bottom:2px solid #dadada;
+}
+.skill{
+  margin-bottom:40px;
+}
+.skillline > ul{
+  display:flex;
+  width:70%;
+  margin:0 auto;
+  justify-content:space-evenly;
+  margin-top:20px;
+}
+.skillline > ul > li{
+  padding-top:50px;
+}
+.html::before{
+  font-family:"Font Awesome 5 FREE";
+  content: "\f13b";
+}
+.fab{
+  font-size:4em;
+}
+
+.skillline p{
+  text-align:center;
+  font-size:13px;
+}
+.portfolio{
+    padding:50px 80px 0 80px;
+    background-color:#eeeeee;
+    height:800px;
+}
+h2{
+  text-align:center;
 }
