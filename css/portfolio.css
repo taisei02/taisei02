@@ -10,6 +10,7 @@ a{
 body,ul,li,h1,h2,h3{
   margin:0;
   padding:0;
+  font-family:sans-serif;
 }
 h2{
   font-family: paralucent-stencil, sans-serif;
@@ -131,12 +132,40 @@ header li:hover{
   justify-content:space-evenly;
   margin-top:20px;
 }
-.skillline > ul > li{
-  padding-top:50px;
+.flex1{
+  text-align:center;
+  width:100%;
+  margin-top:auto;
 }
 .html::before{
-  font-family:"Font Awesome 5 FREE";
-  content: "\f13b";
+  display:block;
+  font-family:"Font Awesome 5 Brands";
+  font-weight:400;
+  content:"\f13b";
+  font-size:70px;
+}
+.css::before{
+  display:block;
+  font-family:"Font Awesome 5 Brands";
+  font-weight:400;
+  content:"\f38b";
+  font-size:70px;
+}
+.jQuery::before{
+  display:block;
+  content:'';
+  background-image:url(../img/jquery2.gif);
+  height:70px;
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.php::before{
+  display:block;
+  font-family:"Font Awesome 5 Brands";
+  font-weight:400;
+  content:"\f457";
+  font-size:60px;
 }
 .fab{
   font-size:4em;
